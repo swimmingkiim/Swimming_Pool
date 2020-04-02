@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Swimming_Pool/static/css/main.5f361e03.chunk.css",
+    "main.js": "/Swimming_Pool/static/js/main.debab9c5.chunk.js",
+    "main.js.map": "/Swimming_Pool/static/js/main.debab9c5.chunk.js.map",
+    "runtime-main.js": "/Swimming_Pool/static/js/runtime-main.cf68621e.js",
+    "runtime-main.js.map": "/Swimming_Pool/static/js/runtime-main.cf68621e.js.map",
+    "static/js/2.3b34afb3.chunk.js": "/Swimming_Pool/static/js/2.3b34afb3.chunk.js",
+    "static/js/2.3b34afb3.chunk.js.map": "/Swimming_Pool/static/js/2.3b34afb3.chunk.js.map",
+    "index.html": "/Swimming_Pool/index.html",
+    "precache-manifest.509d85288f7a60ad1c754dad1a4e86da.js": "/Swimming_Pool/precache-manifest.509d85288f7a60ad1c754dad1a4e86da.js",
+    "service-worker.js": "/Swimming_Pool/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/Swimming_Pool/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.3b34afb3.chunk.js.LICENSE.txt": "/Swimming_Pool/static/js/2.3b34afb3.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/Swimming_Pool/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cf68621e.js",
+    "static/js/2.3b34afb3.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.debab9c5.chunk.js"
+  ]
+}
