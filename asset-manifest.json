@@ -1,23 +1,35 @@
 {
   "files": {
-    "main.css": "/Swimming_Pool/static/css/main.5f361e03.chunk.css",
-    "main.js": "/Swimming_Pool/static/js/main.debab9c5.chunk.js",
-    "main.js.map": "/Swimming_Pool/static/js/main.debab9c5.chunk.js.map",
+    "main.css": "/Swimming_Pool/static/css/main.22113c69.chunk.css",
+    "main.js": "/Swimming_Pool/static/js/main.bc798aa2.chunk.js",
+    "main.js.map": "/Swimming_Pool/static/js/main.bc798aa2.chunk.js.map",
     "runtime-main.js": "/Swimming_Pool/static/js/runtime-main.cf68621e.js",
     "runtime-main.js.map": "/Swimming_Pool/static/js/runtime-main.cf68621e.js.map",
-    "static/js/2.3b34afb3.chunk.js": "/Swimming_Pool/static/js/2.3b34afb3.chunk.js",
-    "static/js/2.3b34afb3.chunk.js.map": "/Swimming_Pool/static/js/2.3b34afb3.chunk.js.map",
+    "static/js/2.6062c832.chunk.js": "/Swimming_Pool/static/js/2.6062c832.chunk.js",
+    "static/js/2.6062c832.chunk.js.map": "/Swimming_Pool/static/js/2.6062c832.chunk.js.map",
     "index.html": "/Swimming_Pool/index.html",
-    "precache-manifest.509d85288f7a60ad1c754dad1a4e86da.js": "/Swimming_Pool/precache-manifest.509d85288f7a60ad1c754dad1a4e86da.js",
+    "precache-manifest.cb139212adfe2a13c62f14f3706a46cc.js": "/Swimming_Pool/precache-manifest.cb139212adfe2a13c62f14f3706a46cc.js",
     "service-worker.js": "/Swimming_Pool/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/Swimming_Pool/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.3b34afb3.chunk.js.LICENSE.txt": "/Swimming_Pool/static/js/2.3b34afb3.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/Swimming_Pool/static/media/logo.5d5d9eef.svg"
+    "static/css/main.22113c69.chunk.css.map": "/Swimming_Pool/static/css/main.22113c69.chunk.css.map",
+    "static/js/2.6062c832.chunk.js.LICENSE.txt": "/Swimming_Pool/static/js/2.6062c832.chunk.js.LICENSE.txt",
+    "static/media/bangkok_transparent.png": "/Swimming_Pool/static/media/bangkok_transparent.d9459be8.png",
+    "static/media/bangkokonlinejudge.png": "/Swimming_Pool/static/media/bangkokonlinejudge.44f6eda9.png",
+    "static/media/html_css_js.png": "/Swimming_Pool/static/media/html_css_js.93d8a32a.png",
+    "static/media/jiayou_hsk.png": "/Swimming_Pool/static/media/jiayou_hsk.f3abdcb4.png",
+    "static/media/life_saver.png": "/Swimming_Pool/static/media/life_saver.fd2b0158.png",
+    "static/media/mongodb.png": "/Swimming_Pool/static/media/mongodb.3d40302b.png",
+    "static/media/pug.png": "/Swimming_Pool/static/media/pug.0642aefd.png",
+    "static/media/react.png": "/Swimming_Pool/static/media/react.04557c1b.png",
+    "static/media/react_and_redux.png": "/Swimming_Pool/static/media/react_and_redux.8b5cab79.png",
+    "static/media/redux.png": "/Swimming_Pool/static/media/redux.49c025be.png",
+    "static/media/sass.png": "/Swimming_Pool/static/media/sass.74c36290.png",
+    "static/media/swimmingkiim.jpg": "/Swimming_Pool/static/media/swimmingkiim.5fc34227.jpg",
+    "static/media/white_github.png": "/Swimming_Pool/static/media/white_github.461852a0.png"
   },
   "entrypoints": [
     "static/js/runtime-main.cf68621e.js",
-    "static/js/2.3b34afb3.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.debab9c5.chunk.js"
+    "static/js/2.6062c832.chunk.js",
+    "static/css/main.22113c69.chunk.css",
+    "static/js/main.bc798aa2.chunk.js"
   ]
 }
