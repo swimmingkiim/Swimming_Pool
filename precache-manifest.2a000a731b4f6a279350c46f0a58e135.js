@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c944d910697d93390f22c31e634ea9cb",
+    "revision": "2ecc53912932a30a8e2e722c219aff5f",
     "url": "/Swimming_Pool/index.html"
   },
   {
-    "revision": "c68fae536e2c4a1b2739",
+    "revision": "ec6d4adb3b4c957effcb",
     "url": "/Swimming_Pool/static/css/main.073cba39.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Swimming_Pool/static/js/2.f5638602.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c68fae536e2c4a1b2739",
-    "url": "/Swimming_Pool/static/js/main.01f00e73.chunk.js"
+    "revision": "ec6d4adb3b4c957effcb",
+    "url": "/Swimming_Pool/static/js/main.05ca5d24.chunk.js"
   },
   {
     "revision": "0b4c6598f614fa30e4fa",
