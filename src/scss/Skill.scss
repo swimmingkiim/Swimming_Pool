@@ -1,0 +1,20 @@
+@import './info';
+
+div {
+    width: fit-content;
+    height: fit-content;
+
+    & .languageIcon {
+        min-width: 128px;
+        min-height: 128px;
+        max-width: 100vh * 0.6;
+        max-height: 100vh * 0.6;
+        height: 100vh * 0.2;
+        margin: .5em .5em;
+    }
+
+    & .bigIcon {
+        width: 100vh * 0.6;
+        height: 100vh * 0.6;
+    }
+}

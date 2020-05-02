@@ -1,0 +1,33 @@
+@import './info';
+
+.swimmerLine {
+    width: 100%;
+    height: 5vh;
+    position: fixed;
+    top: 1%;
+    background-color: transparent;
+    overflow: hidden;
+    z-index: 1;
+    & .swimmer {
+        width: 5vh;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        right: 0;
+        transform: translateX(100%);
+
+        &.stretchArm {
+            background-image: url('../img/swim1.png');
+        }
+        &.bendArm {
+            background-image: url('../img/swim2.png');
+        }
+        &.inWaterArm {
+            background-image: url('../img/swim3.png');
+        }
+        &.goldMedal {
+            background-image: url('../img/medal.png');
+        }
+    }
+}

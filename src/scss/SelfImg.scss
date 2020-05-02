@@ -1,0 +1,119 @@
+@import './info';
+
+.selfImgContainer {
+    width: 20em;
+    height: 20em;
+    margin-top: 5em;
+
+    @include adjust-size("phone") {
+        width: 30em;
+        height: 30em;
+        margin-top: 5em;
+    }
+    @include adjust-size("tablet") {
+        width: 40em;
+        height: 40em;
+        margin-top: 5em;
+    }
+    @include adjust-size("desktop") {
+        width: 40em;
+        height: 40em;
+        margin-top: 5em;
+    } 
+    @include adjust-size("desktop-medium") {
+        width: 30em;
+        height: 30em;
+        margin-top: 0;
+    }     
+    @include adjust-size("desktop-large") {
+        width: 40em;
+        height: 40em;
+        margin-top: 0;
+    } 
+    
+    position: relative;
+    
+    > div {
+        position: absolute;
+        width: 20em;
+        height: 20em;
+        overflow: hidden;
+        border-radius: 50%;
+        border: 2em solid gray;
+
+        @include adjust-size("phone") {
+            width: 30em;
+            height: 30em;
+        }
+        @include adjust-size("tablet") {
+            width: 40em;
+            height: 40em;
+        }
+        @include adjust-size("desktop") {
+            width: 40em;
+            height: 40em;
+        } 
+        @include adjust-size("desktop-medium") {
+            width: 30em;
+            height: 30em;
+        }     
+        @include adjust-size("desktop-large") {
+            width: 40em;
+            height: 40em;
+        } 
+
+        > img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    & .hexagon {
+        $coordinate: calc(50% - 50% / 1.414);
+        position: absolute;
+        width: fit-content;
+
+        
+        &.topleft {
+            top: $coordinate;
+            left: $coordinate;
+        }
+
+        &.topcenter {
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%) translateY(15%);
+        }
+
+        &.topright {
+            top: $coordinate;
+            right: $coordinate;
+        }
+        &.middleleft {
+            top: 50%;
+            left: 0;
+            transform: translateX(20%);
+        }
+
+        &.middleright {
+            top: 50%;
+            right: 0;
+            transform: translateX(-20%);
+        }
+        &.bottomleft {
+            bottom: $coordinate;
+            left: $coordinate;
+        }
+
+        &.bottomcenter {
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%) translateY(-15%);
+        }
+
+        &.bottomright {
+            bottom: $coordinate;
+            right: $coordinate;
+        }
+    }
+}

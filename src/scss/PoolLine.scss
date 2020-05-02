@@ -1,0 +1,60 @@
+@import './info';
+
+.poolLineContainer {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    top: 0;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    z-index: 0;
+
+    & .line {
+        width: 100vw * 0.01;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        z-index: 0;
+
+        & .brick {
+            width: 100vw * 0.01;
+            height: 100vh * 0.02;
+            background-color: #FF595C;
+            z-index: 0;
+        }
+    }
+
+    & .person {
+        position: absolute;
+        
+        &.one {
+            top: 20%;
+            left: 18%;
+        }
+        &.two {
+            top: 80%;
+            left: 28%;
+            transform: rotate(180deg);
+        }
+        &.three {
+            top: 45%;
+            left: 35%;
+            transform: rotate(180deg);
+        }
+        &.four {
+            top: 30%;
+            left: 45%;
+        }
+        &.five {
+            top: 60%;
+            left: 58%;
+        }
+        &.six {
+            top: 5%;
+            left: 70%;
+        }
+    }
+}

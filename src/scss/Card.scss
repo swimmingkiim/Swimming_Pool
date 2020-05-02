@@ -1,0 +1,98 @@
+@import './info';
+
+.card {
+    width: 80%;
+    min-height: 100vh * 0.4;
+    margin: 3em 1em;
+    padding: 1.5em 1.5em;
+    line-height: 1.5em;
+    border: 1.5em solid rgb(241, 196, 15);
+    border-radius: 1.5em;
+    background-color: #ffffff;
+
+    @include adjust-size("phone") {
+        display: flex;
+        flex-direction: column;
+    }
+    @include adjust-size("tablet") {
+        display: block;
+        flex-direction: none;
+    } 
+    
+    &.makeItFit {
+        width: fit-content;
+        min-height: 100vh * 0.4;
+    }
+
+    * {
+        color: darkblue;
+    }
+
+    & img {
+        width: 80%;
+        height: auto;
+        float: none;
+        display: block;
+        margin: 1.5em auto;
+
+        @include adjust-size("tablet") {
+            width: 100vw * 0.15;
+            height: 100vw * 0.15;
+            float: left;
+            margin-right: 1.5em;
+        }
+    }
+
+    & p {
+        font-size: 120%;
+        font-weight: 700;
+        margin: 1em 1.5em;
+
+        @include adjust-size("tablet") {
+            margin: 1em 0;
+        }
+    }
+
+    & .projectTitle {
+        font-size: 150%;
+        font-weight: 900;
+        margin: 1em 1.5em;
+
+        @include adjust-size("tablet") {
+            margin: 1em 0;
+        }
+    }
+
+    & .skillContainer {
+        width: 100%;
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+        @include adjust-size("tablet") {
+            width: 75%;
+            float: right;
+            margin: 0;
+        }
+
+        & span {
+            display: inline-block;
+            min-width: 5em;
+            height: 1.5em;
+            color: yellow;
+            background-color: $footer_color;
+            border-radius: .5em;
+            text-align: center;
+            line-height: .1em;
+            padding: 1em;
+            margin-top: 1em;
+        }
+    
+        span + span {
+            margin-left: .5em;
+        }
+    }
+}

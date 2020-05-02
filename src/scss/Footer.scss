@@ -1,0 +1,41 @@
+@import './info';
+
+footer {
+    width: 100%;
+    height: $footer_height;
+    padding: 15%;
+    background-color: $footer_color;
+    font-size: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    @include adjust-size("phone") {
+        font-size: 150%;
+    }
+    @include adjust-size("tablet") {
+        font-size: 200%;
+    }
+    @include adjust-size("tablet") {
+        padding: 5%;
+    }
+
+    & .line {
+        width: fit-content;
+
+        & img {
+            width: 1em;
+            height: 1em;
+            float: left;
+        }
+
+        & p {
+            margin-left: 1.5em;
+        }
+    }
+
+    .line + .line {
+        margin-top: 1.5em;
+    }
+}

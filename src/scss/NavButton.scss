@@ -1,0 +1,14 @@
+button {
+    width: fit-content;
+    height: fit-content;
+    border: none;
+    background-color: transparent;
+    position: fixed;
+    top: 100vh * 0.05;
+    right: 100vh * 0.05;
+
+    & img {
+        width: 4.5em;
+        height: 4.5em;
+    }
+}

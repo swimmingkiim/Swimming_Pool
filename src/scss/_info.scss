@@ -1,0 +1,19 @@
+$footer_height: 100vh * 0.3;
+$footer_color: rgb(5, 5, 134);
+
+$size: (
+    "phone": (min-width: 566px),
+    "phone-landscape": (min-width: 767px),
+    "tablet": (min-width: 991px),
+    "desktop": (min-width: 1305px),
+    "desktop-medium": (min-width: 1470px),
+    "desktop-large": (min-width: 1540px)
+);
+
+@mixin adjust-size($device) {
+    @if map-has-key($map: $size, $key: $device) {
+        @media only screen and #{map-get($size, $device)} {
+            @content;
+        }
+    }
+}
