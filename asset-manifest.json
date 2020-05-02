@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Swimming_Pool/static/css/main.aa86c9b7.chunk.css",
-    "main.js": "/Swimming_Pool/static/js/main.4288e742.chunk.js",
-    "main.js.map": "/Swimming_Pool/static/js/main.4288e742.chunk.js.map",
+    "main.css": "/Swimming_Pool/static/css/main.073cba39.chunk.css",
+    "main.js": "/Swimming_Pool/static/js/main.01f00e73.chunk.js",
+    "main.js.map": "/Swimming_Pool/static/js/main.01f00e73.chunk.js.map",
     "runtime-main.js": "/Swimming_Pool/static/js/runtime-main.cf68621e.js",
     "runtime-main.js.map": "/Swimming_Pool/static/js/runtime-main.cf68621e.js.map",
-    "static/js/2.4bc4dfd9.chunk.js": "/Swimming_Pool/static/js/2.4bc4dfd9.chunk.js",
-    "static/js/2.4bc4dfd9.chunk.js.map": "/Swimming_Pool/static/js/2.4bc4dfd9.chunk.js.map",
+    "static/js/2.f5638602.chunk.js": "/Swimming_Pool/static/js/2.f5638602.chunk.js",
+    "static/js/2.f5638602.chunk.js.map": "/Swimming_Pool/static/js/2.f5638602.chunk.js.map",
     "index.html": "/Swimming_Pool/index.html",
-    "precache-manifest.d48a7c56d7a949115febcd3ee96439c0.js": "/Swimming_Pool/precache-manifest.d48a7c56d7a949115febcd3ee96439c0.js",
+    "precache-manifest.346e22b91ba5855c0d4389a16cc1bf3c.js": "/Swimming_Pool/precache-manifest.346e22b91ba5855c0d4389a16cc1bf3c.js",
     "service-worker.js": "/Swimming_Pool/service-worker.js",
-    "static/css/main.aa86c9b7.chunk.css.map": "/Swimming_Pool/static/css/main.aa86c9b7.chunk.css.map",
-    "static/js/2.4bc4dfd9.chunk.js.LICENSE.txt": "/Swimming_Pool/static/js/2.4bc4dfd9.chunk.js.LICENSE.txt",
+    "static/css/main.073cba39.chunk.css.map": "/Swimming_Pool/static/css/main.073cba39.chunk.css.map",
+    "static/js/2.f5638602.chunk.js.LICENSE.txt": "/Swimming_Pool/static/js/2.f5638602.chunk.js.LICENSE.txt",
     "static/media/bangkok_transparent.png": "/Swimming_Pool/static/media/bangkok_transparent.d9459be8.png",
     "static/media/bangkokonlinejudge.png": "/Swimming_Pool/static/media/bangkokonlinejudge.44f6eda9.png",
     "static/media/html_css_js.png": "/Swimming_Pool/static/media/html_css_js.93d8a32a.png",
@@ -28,8 +28,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.cf68621e.js",
-    "static/js/2.4bc4dfd9.chunk.js",
-    "static/css/main.aa86c9b7.chunk.css",
-    "static/js/main.4288e742.chunk.js"
+    "static/js/2.f5638602.chunk.js",
+    "static/css/main.073cba39.chunk.css",
+    "static/js/main.01f00e73.chunk.js"
   ]
 }
