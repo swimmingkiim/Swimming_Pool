@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4df05791aebc484676cd6593bca8641e",
+    "revision": "c502c16addf1ca5bd189643754150d6b",
     "url": "/Swimming_Pool/index.html"
   },
   {
-    "revision": "c7abf79e1f4e7478c143",
-    "url": "/Swimming_Pool/static/css/main.073cba39.chunk.css"
+    "revision": "7f33ef7630b7439cbd2a",
+    "url": "/Swimming_Pool/static/css/main.a0486731.chunk.css"
   },
   {
-    "revision": "72682721be3e9e00d4df",
-    "url": "/Swimming_Pool/static/js/2.f5638602.chunk.js"
+    "revision": "88995ce9fcb5ecf22bcd",
+    "url": "/Swimming_Pool/static/js/2.d0d1cd51.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/Swimming_Pool/static/js/2.f5638602.chunk.js.LICENSE.txt"
+    "url": "/Swimming_Pool/static/js/2.d0d1cd51.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c7abf79e1f4e7478c143",
-    "url": "/Swimming_Pool/static/js/main.0d468d6d.chunk.js"
+    "revision": "7f33ef7630b7439cbd2a",
+    "url": "/Swimming_Pool/static/js/main.7261647b.chunk.js"
   },
   {
     "revision": "0b4c6598f614fa30e4fa",
@@ -70,6 +70,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "5fc342275e025f703ab9f6bdf7d0447f",
     "url": "/Swimming_Pool/static/media/swimmingkiim.5fc34227.jpg"
+  },
+  {
+    "revision": "bd516e11a967d156e97b789d69f4e29b",
+    "url": "/Swimming_Pool/static/media/watchfolio.bd516e11.png"
   },
   {
     "revision": "461852a0e75a7be049b6dc61d526074f",
